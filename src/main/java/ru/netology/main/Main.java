@@ -8,12 +8,11 @@ public class Main {
         post.patronymic = "Дмитриевна";
         post.phone = "+7 (999)-999-99-99";
         post.surname = "Павлова";
-        post.subscription = "true";
+        post.subscription = true;
 
         post.birthday = new FormDate();
         post.birthday.day = 5;
         post.birthday.month = 10;
         post.birthday.year = 1995;
     }
-
 }
